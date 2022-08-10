@@ -4,7 +4,7 @@ sudo tee $HOME/.relayer/chains/stride.json > /dev/null <<EOF
   "value": {
     "key": "wallet",
     "chain-id": "STRIDE-TESTNET-2",
-    "rpc-addr": "http://${STRIDE_RPC_ADDR}",
+    "rpc-addr": "http://127.0.0.1:16658",
     "account-prefix": "stride",
     "keyring-backend": "test",
     "gas-adjustment": 1.2,
