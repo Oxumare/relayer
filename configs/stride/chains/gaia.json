@@ -4,7 +4,7 @@ sudo tee $HOME/.relayer/chains/gaia.json > /dev/null <<EOF
   "value": {
     "key": "wallet",
     "chain-id": "GAIA",
-    "rpc-addr": "http://127.0.0.1:23658",
+    "rpc-addr": "http://159.223.179.105:23657",
     "account-prefix": "cosmos",
     "keyring-backend": "test",
     "gas-adjustment": 1.2,
